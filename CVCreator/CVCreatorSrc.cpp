@@ -5,10 +5,10 @@ void CVCreator::Questionnaire() {
 
 }
 
-void CVCreator::CopyTo() {
+void CVCreator::AddCustom() {
 
 }
 
-void CVCreator::AddCustom() {
+void CVCreator::CopyTo() {
 
 }
