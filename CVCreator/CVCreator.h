@@ -6,9 +6,15 @@ using namespace std;
 
 class CVCreator {
 	public:
+		void Before();
+		void After();
 		void Questionnaire();
 		void CopyTo();
 		void AddCustom();
+
+		void setUser(string username) {
+			this->name = username;
+		}
 
 	private:
 		//Company-related
